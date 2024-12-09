@@ -10,3 +10,7 @@ Notes for Web 4: Databases &amp; Content Management
 - api
 - headless wordpress
 - vue or react
+
+## TO DO
+
+[How to use CyberPanel Git Manager For Complete Automation](https://community.cyberpanel.net/t/how-to-use-cyberpanel-git-manager-for-complete-automation/30630)

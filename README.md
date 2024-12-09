@@ -14,3 +14,11 @@ Notes for Web 4: Databases &amp; Content Management
 ## TO DO
 
 [How to use CyberPanel Git Manager For Complete Automation](https://community.cyberpanel.net/t/how-to-use-cyberpanel-git-manager-for-complete-automation/30630)
+
+## Wp custom post types
+
+[How to Create Custom Post Types in WordPress](https://elementor.com/blog/wordpress-custom-post-types/?utm_source=google&utm_medium=cpc&utm_campaign=11138809851&utm_term=&lang=&gad_source=1&gclid=Cj0KCQiAx9q6BhCDARIsACwUxu5Ea-LpMA5JnV7pgS-xkT5Yonc8NkM8FE7qkxhrYD2Y11tb7zq4jGIaAoquEALw_wcB)
+
+[Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/)
+
+[Pods – Custom Content Types and Fields](https://wordpress.org/plugins/pods/)

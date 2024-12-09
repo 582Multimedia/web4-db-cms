@@ -17,6 +17,12 @@ Notes for Web 4: Databases &amp; Content Management
 
 ## Wp custom post types
 
+### Official
+
+[Custom Post Types](https://developer.wordpress.org/plugins/post-types/) - [Registering Custom Post Types](https://developer.wordpress.org/plugins/post-types/registering-custom-post-types/) - [Working with Custom Post Types](https://developer.wordpress.org/plugins/post-types/working-with-custom-post-types/)
+
+### Plugins
+
 [How to Create Custom Post Types in WordPress](https://elementor.com/blog/wordpress-custom-post-types/?utm_source=google&utm_medium=cpc&utm_campaign=11138809851&utm_term=&lang=&gad_source=1&gclid=Cj0KCQiAx9q6BhCDARIsACwUxu5Ea-LpMA5JnV7pgS-xkT5Yonc8NkM8FE7qkxhrYD2Y11tb7zq4jGIaAoquEALw_wcB)
 
 [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/)

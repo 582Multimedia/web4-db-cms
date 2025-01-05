@@ -10,6 +10,7 @@ Notes for Web 4: Databases &amp; Content Management
 - [ ] api
 - [ ] headless wordpress
 - [ ] vue or react
+- [ ] joint project with first years
 
 ## TO DO
 

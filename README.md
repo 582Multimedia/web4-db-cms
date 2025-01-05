@@ -11,7 +11,6 @@ Notes for Web 4: Databases &amp; Content Management
 - [ ] headless wordpress
 - [ ] vue or react
 - [ ] joint project with first years
-- [ ] test update
 
 ## TO DO
 

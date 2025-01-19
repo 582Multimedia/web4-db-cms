@@ -14,7 +14,12 @@ function selectData() {
         viewFormData.appendChild(singleItem);
       }
     })
-    .catch((err) => console.log(err));
+    .catch((err) => {
+      console.log(err);
+      let errorMsg = document.createElement("section");
+      errorMsg.innerHTML = `${err}`;
+      viewFormData.appendChild(errorMsg);
+    });
 }
 
 // run once on page load

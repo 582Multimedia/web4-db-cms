@@ -20,11 +20,19 @@ Notes for Web 4: Databases &amp; Content Management
 
 ### API & Vue.js Project
 
+Details TBD
+
 ### Capython Project
+
+Details TBD
 
 ### Headless WP Project
 
+Details TBD
+
 ### Personal Project
+
+Details TBD
 
 <!-- ## TO DO
 

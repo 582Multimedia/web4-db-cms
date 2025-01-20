@@ -38,6 +38,8 @@ Details TBD
 
 ### [GitHub Signup](https://github.com/582Multimedia/GitHub-signup)
 
+### [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics)
+
 ### [localStorage](notes/LOCALSTORAGE.md)
 
 <!-- ## TO DO

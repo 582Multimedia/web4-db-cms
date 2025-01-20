@@ -4,15 +4,29 @@ Notes for Web 4: Databases &amp; Content Management
 
 ## Course plan
 
-- [ ] git workflow
-- [ ] add scores for game using localstorage
-- [ ] add scores to a db using php and sql
-- [ ] api
+- [ ] git & GitHub workflow
+- [ ] localstorage - add scores for Web3 game using
+- [ ] deep dive with logic operators, arrays, loops and filters
+- [ ] APIs
+- [ ] TouchDesigner integration with APIs and replicator (maybe?)
+- [ ] add scores to a db using Php & MySQL (basic web database infrastructure and custom database)
+- [ ] javascript framework (vue.js or react) & component driven design
 - [ ] headless wordpress
-- [ ] vue or react
-- [ ] joint project with first years for headless wordpress
+- [ ] Capython Project
+- [ ] Headless Wordpress
+- [ ] Wordpress custom post types
 
-## TO DO
+## Projects
+
+### API & Vue.js Project
+
+### Capython Project
+
+### Headless WP Project
+
+### Personal Project
+
+<!-- ## TO DO
 
 [How to use CyberPanel Git Manager For Complete Automation](https://community.cyberpanel.net/t/how-to-use-cyberpanel-git-manager-for-complete-automation/30630)
 
@@ -36,4 +50,4 @@ Notes for Web 4: Databases &amp; Content Management
 
 [582-database-integration](https://github.com/ngyvc/582-database-integration)
 
-[582-block3-adv-web](https://github.com/ngyvc/block3-adv-web)
+[582-block3-adv-web](https://github.com/ngyvc/block3-adv-web) -->

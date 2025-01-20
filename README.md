@@ -34,6 +34,12 @@ Details TBD
 
 Details TBD
 
+## Notes
+
+### [GitHub Signup](https://github.com/582Multimedia/GitHub-signup)
+
+### [localStorage](notes/LOCALSTORAGE.md)
+
 <!-- ## TO DO
 
 [How to use CyberPanel Git Manager For Complete Automation](https://community.cyberpanel.net/t/how-to-use-cyberpanel-git-manager-for-complete-automation/30630)

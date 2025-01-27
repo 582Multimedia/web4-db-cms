@@ -64,7 +64,7 @@ First class only, or whenever you want to add and upload a new repo:
 
 Commit and Publish to github, you will have the choice of public or private repo and push.
 
-***MAKE SURE THERE IS A COMMIT MESSAGE BEFORE COMMITING EVERY SINGLE TIME***
+**_MAKE SURE THERE IS A COMMIT MESSAGE BEFORE COMMITING EVERY SINGLE TIME_**
 
 Having a message is the most critical part.
 
@@ -73,6 +73,8 @@ Having a message is the most critical part.
 ### [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later)
 
 ### [localStorage](notes/LOCALSTORAGE.md)
+
+### [Javascript Basics](https://github.com/582Multimedia/js-basics)
 
 <!-- ## TO DO
 

@@ -12,7 +12,7 @@ npm create vue@latest
 
 View the Vue.js [Introduction](https://vuejs.org/guide/introduction) guide.
 
-```vue
+```js
 <script setup>
 import { ref } from "vue";
 let count = ref(0);
@@ -34,16 +34,17 @@ let count = ref(0);
 
 Increment
 
-```svg
+```html
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-    <path
-        d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
-    />
+  <path
+    d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+  />
+</svg>
 ```
 
 Decrement
 
-```svg
+```html
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
     <path
@@ -54,11 +55,11 @@ Decrement
 
 Reset
 
-```svg
+```html
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-    <path
-        d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"
-    />
+  <path
+    d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"
+  />
 </svg>
 ```
 
@@ -83,4 +84,41 @@ button {
     fill: white;
   }
 }
+```
+
+## Integrating APIs
+
+```js
+import { onMounted, ref } from "vue";
+let users = ref([]);
+let fetchData = async () => {
+  try {
+    const response = await fetch("https://jsonplaceholder.typicode.com/users");
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    users.value = data;
+  } catch (error) {
+    console.error(error);
+  }
+};
+onMounted(() => {
+  fetchData();
+});
+```
+
+```html
+<div>
+  <ul>
+    <li v-for="user in users" :key="user.id">
+      {{ user.name }}
+      <ul>
+        <li>{{ user.email }}</li>
+        <li>{{ user.phone }}</li>
+        <li>{{ user.website }}</li>
+      </ul>
+    </li>
+  </ul>
+</div>
 ```

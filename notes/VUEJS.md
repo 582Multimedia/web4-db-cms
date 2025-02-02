@@ -2,11 +2,15 @@
 
 ## Start a new project
 
+View the Vue.js [Quick Start](https://vuejs.org/guide/quick-start) guide.
+
 ```bash
 npm create vue@latest
 ```
 
 ## Basic component example
+
+View the Vue.js [Introduction](https://vuejs.org/guide/introduction) guide.
 
 ```vue
 <script setup>

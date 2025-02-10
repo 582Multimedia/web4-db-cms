@@ -1,5 +1,9 @@
 # Vue.js Intro
 
+## Install Node and npm
+
+[Node.js](https://nodejs.org/en)
+
 ## Start a new project
 
 View the Vue.js [Quick Start](https://vuejs.org/guide/quick-start) guide.

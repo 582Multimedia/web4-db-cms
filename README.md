@@ -76,6 +76,8 @@ Having a message is the most critical part.
 
 ### [Javascript Basics](https://github.com/582Multimedia/js-basics)
 
+### [Vue Basics](notes/VUEJS.md)
+
 <!-- ## TO DO
 
 [How to use CyberPanel Git Manager For Complete Automation](https://community.cyberpanel.net/t/how-to-use-cyberpanel-git-manager-for-complete-automation/30630)

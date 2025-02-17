@@ -27,7 +27,7 @@ async function getData() {
 
 ## List of APIs
 
-- [Sample APIs](http://sampleapis.com/)
-- [DummyJSON](https://dummyjson.com/) [on GitHub](https://github.com/Ovi/DummyJSON)
+- [10 resources ready for use](https://github.com/Ovi/DummyJSON?tab=readme-ov-file#available-resources) via [DummyJSON](https://dummyjson.com/) [on GitHub](https://github.com/Ovi/DummyJSON)
 - [{JSON} Placeholder](https://jsonplaceholder.typicode.com/)
 - [REQRES](https://reqres.in/)
+- [Sample APIs](http://sampleapis.com/) ***temporary issues / down***

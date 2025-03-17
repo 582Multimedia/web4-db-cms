@@ -1,4 +1,4 @@
-# Capython Portfolio
+# Capython Case Study
 
 ## Requirements
 

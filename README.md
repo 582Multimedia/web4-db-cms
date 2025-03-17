@@ -80,6 +80,8 @@ Having a message is the most critical part.
 
 ### [APIs](notes/API.md)
 
+### [Capython](notes/capython.md)
+
 <!-- ## TO DO
 
 [How to use CyberPanel Git Manager For Complete Automation](https://community.cyberpanel.net/t/how-to-use-cyberpanel-git-manager-for-complete-automation/30630)

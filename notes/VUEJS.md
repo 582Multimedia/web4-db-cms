@@ -12,9 +12,11 @@ View the Vue.js [Quick Start](https://vuejs.org/guide/quick-start) guide.
 npm create vue@latest
 ```
 
+View the Vue.js [Introduction](https://vuejs.org/guide/introduction) guide.
+
 ## Basic component example
 
-View the Vue.js [Introduction](https://vuejs.org/guide/introduction) guide.
+<https://vuejs.org/guide/essentials/component-basics>
 
 ```js
 <script setup>
@@ -125,4 +127,89 @@ onMounted(() => {
     </li>
   </ul>
 </div>
+```
+
+## Props
+
+<https://vuejs.org/guide/components/props>
+
+Create a component named `PropsExample.vue` and copy paste this inside:
+
+```js
+<!-- PropsExample.vue -->
+<script setup>
+const props = defineProps(['name'])
+</script>
+<template>
+  <p>{{ name }}</p>
+</template>
+```
+
+In `App.vue`, copy paste this inside the `script` tag to import the component:
+
+```js
+import PropsExample from './components/PropsExample.vue'
+```
+
+External props passed to the component in the parent using:
+
+```js
+<PropsExample name="Test Name" />
+```
+
+## Component v-model
+
+<https://vuejs.org/guide/components/v-model.html>
+
+Create a component named `VmodelExample.vue` and copy paste this inside:
+
+```js
+<!-- VmodelExample.vue -->
+<script setup>
+const number = defineModel()
+
+function update() {
+  number.value++
+}
+</script>
+
+<template>
+  <div>Parent bound v-model is: {{ number }}</div>
+  <button @click="update">Increment</button>
+</template>
+```
+
+In `App.vue`, copy paste this inside the `script` tag to import the component:
+
+```js
+import VmodelExample from './components/VmodelExample.vue'
+```
+
+The parent can then bind a value with `v-model`:
+
+```js
+<!-- Parent.vue -->
+<VmodelExample v-model="countModel" />
+```
+
+## Advanced Example
+
+We will use this object for a more intergrated example:
+
+```js
+let books = ref([
+  {
+    title: 'Hamlet', author: 'William Shakespeare', year: 1603, genre: 'Tragedy', excerpt: 'To be, or not to be: that is the question.'
+  },
+  {
+    title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: 1925, genre: 'Novel', excerpt: 'So we beat on, boats against the current, borne back ceaselessly into the past.'
+  },
+  {
+    title: 'Moby-Dick', author: 'Herman Melville', year: 1851, genre: 'Novel', excerpt: 'Call me Ishmael.'
+
+  },
+  {
+    title: 'Pride and Prejudice', author: 'Jane Austen', year: 1813, genre: 'Novel', excerpt: 'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.'
+  },
+])
 ```

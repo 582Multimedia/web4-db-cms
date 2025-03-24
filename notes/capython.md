@@ -60,7 +60,7 @@ Any images included this way, should be accessible via `"/images/example.jpg"` a
 
 You can then loop through the list of images like we saw in class within vue.
 
-**Other ways to use images are much more complicated**, more details can be found here: [How to use images with Vite and Vue]((https://medium.com/@andrewmasonmedia/how-to-use-images-with-vite-and-vue-937307a150c0)).
+**Other ways to use images are much more complicated**, more details can be found here: [How to use images with Vite and Vue](https://medium.com/@andrewmasonmedia/how-to-use-images-with-vite-and-vue-937307a150c0).
 
 ## Start your project
 

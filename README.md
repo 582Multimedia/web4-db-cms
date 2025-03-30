@@ -2,13 +2,25 @@
 
 Notes for Web 4: Databases &amp; Content Management
 
+## Notes
+
+- [Git Setup](notes/git.md)
+- [GitHub Signup](https://github.com/582Multimedia/GitHub-signup)
+- [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later)
+- [localStorage](notes/LOCALSTORAGE.md)
+- [Javascript Basics](https://github.com/582Multimedia/js-basics)
+- [Vue Basics](notes/VUEJS.md)
+- [APIs](notes/API.md)
+- [Capython](notes/capython.md)
+- [Php & MySQL](notes/php-mysql.md)
+
 ## Course plan
 
-- [ ] git & GitHub workflow
-- [ ] localstorage - add scores for Web3 game using
-- [ ] deep dive with logic operators, arrays, loops and filters
-- [ ] APIs
-- [ ] TouchDesigner integration with APIs and replicator (maybe?)
+- [x] git & GitHub workflow
+- [x] localstorage - add scores for Web3 game using
+- [x] deep dive with logic operators, arrays, loops and filters
+- [x] APIs
+- [x] Skipped - TouchDesigner integration with APIs and replicator (maybe?)
 - [ ] add scores to a db using Php & MySQL (basic web database infrastructure and custom database)
 - [ ] javascript framework (vue.js or react) & component driven design
 - [ ] headless wordpress
@@ -33,54 +45,6 @@ Details TBD
 ### Personal Project
 
 Details TBD
-
-## Notes
-
-### Git workflow
-
-Sign in VSCode with github account
-
-Install git (if not installed already, macs will already have it)
-
-Open a new terminal inside VSCode
-
-Check if git is here:
-
-```bash
-git -v
-```
-
-Add user name and email credentials for git to work
-
-```bash
-git config --global user.name "Your Name"
-```
-
-```bash
-git config --global user.email "12345678@edu.vaniercollege.qc.ca"
-```
-
-First class only, or whenever you want to add and upload a new repo:
-
-Commit and Publish to github, you will have the choice of public or private repo and push.
-
-**_MAKE SURE THERE IS A COMMIT MESSAGE BEFORE COMMITING EVERY SINGLE TIME_**
-
-Having a message is the most critical part.
-
-### [GitHub Signup](https://github.com/582Multimedia/GitHub-signup)
-
-### [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later)
-
-### [localStorage](notes/LOCALSTORAGE.md)
-
-### [Javascript Basics](https://github.com/582Multimedia/js-basics)
-
-### [Vue Basics](notes/VUEJS.md)
-
-### [APIs](notes/API.md)
-
-### [Capython](notes/capython.md)
 
 <!-- ## TO DO
 

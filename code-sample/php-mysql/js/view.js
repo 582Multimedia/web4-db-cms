@@ -1,4 +1,5 @@
 let viewFormData = document.querySelector("#viewFormData");
+let feedback = document.querySelector("#feedback");
 
 function selectData() {
   fetch("php/select.php")
@@ -15,10 +16,8 @@ function selectData() {
       }
     })
     .catch((err) => {
-      console.log(err);
-      let errorMsg = document.createElement("section");
-      errorMsg.innerHTML = `${err}`;
-      viewFormData.appendChild(errorMsg);
+      console.error(err);
+      feedback.innerHTML = `<h2>An error occurred while fetching the data.</h2><p>Please check the console or network tab in the developer tools for the error.</p><p>${err}</p>`;
     });
 }
 

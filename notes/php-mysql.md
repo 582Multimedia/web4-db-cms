@@ -12,7 +12,7 @@ Simple php / mysql database integration example
 
 Simple database integration example, if you want to jump ahead, go to the [integrate](#integrate-the-database-in-php) section.
 
-### Log-in on plesk and select databases
+### Log-in on plesk and in `Dashboard` select `Databases`
 
 ![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 3.45.21 PM.jpg>)
 
@@ -102,11 +102,11 @@ Note: **Read carefully** any errors when you **access the php page directly**.
 
 Open [`php/db_connect.php`](template/php/db_connect.php) and change the `$user`, `$pass` and `$db` information to match the information from the [setup](#setup-a-database-on-plesk) page.
 
-`$db` refers to the selected database name in plesk.
-`$user` refers to the user name of the selected database in plesk.
-`$pass` refers to the user password of the selected database in plesk.
+- `$db` refers to the selected database name in plesk.
+- `$user` refers to the user name of the selected database in plesk.
+- `$pass` refers to the user password of the selected database in plesk.
 
-![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 8.26.27 PM.jpg>)
+![Alt text](<../img/php-mysql/Screenshot 2025-03-30 at 7.12.13 PM.jpg>)
 
 ### Edit select information in `php/select.php`
 

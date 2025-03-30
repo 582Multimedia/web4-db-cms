@@ -102,9 +102,11 @@ Note: **Read carefully** any errors when you **access the php page directly**.
 
 Open [`php/db_connect.php`](template/php/db_connect.php) and change the `$user`, `$pass` and `$db` information to match the information from the [setup](#setup-a-database-on-plesk) page.
 
-- `$db` refers to the selected database name in plesk.
-- `$user` refers to the user name of the selected database in plesk.
-- `$pass` refers to the user password of the selected database in plesk.
+| Variable | Description |
+| -- | -- |
+| `$db` | database name |
+| `$user` | database user name |
+| `$pass` | password |
 
 ![Alt text](<../img/php-mysql/Screenshot 2025-03-30 at 7.12.13 PM.jpg>)
 

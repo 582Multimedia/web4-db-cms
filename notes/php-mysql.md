@@ -122,6 +122,9 @@ Open [`php/select.php`](template/php/select.php), there will be 3 spots to chang
 3. On `line 32`, edit the output array varibales to **match the number of `$field` variables** and the **expected output names** (names on the left side of the `=>`, the right side ones doesn't matter as much, it just have to match the same ones from step 2).
    ![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 9.24.43 PM.jpg>)
 
+> [!IMPORTANT]
+> Make sure you match the number of expected fields, add more if needed.
+
 ### Edit insert information in `php/insert.php`
 
 When writing to the database, you will have to execute an `INSERT` command.
@@ -134,6 +137,9 @@ Open [`php/insert.php`](template/php/insert.php), there will be 3 spots to chang
 3. On `line 22`, update the **bind parameter types and variables** to match the field names **_from the form_** that is sending the data to this page.
    ![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 9.18.59 PM.jpg>)
    ![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 9.23.14 PM.jpg>)
+
+> [!IMPORTANT]
+> Make sure you match the number of expected fields, add more if needed.
 
 ---
 

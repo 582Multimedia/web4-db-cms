@@ -149,12 +149,16 @@ There are two `HTML` files that has accompanying `js` files that function to acc
 
 You should not need to change anything from the templates, but if you edit form names or the id of the viewer in the `html` files, make sure they are also changed on the `js` files.
 
-The namse are located on `line 1` for both the [js/form.js](template/js/form.js) and the [js/view.js](template/js/view.js) files.
+The namse are located on `line 1` for both the [js/list.js](template/js/list.js) and the [js/form.js](template/js/form.js) files.
+
+> [!NOTE]
+> Files named view have been renamed to list, so any screenshots with view.html, or view.js are now renamed to list.html and list.js in newer versions of the code-sample files.
+
+![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 9.26.31 PM.jpg>)
+![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 9.16.14 PM.jpg>)
 
 ![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 9.26.20 PM.jpg>)
 ![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 9.16.04 PM.jpg>)
-![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 9.26.31 PM.jpg>)
-![Alt text](<../img/php-mysql/Screenshot 2023-10-01 at 9.16.14 PM.jpg>)
 
 The `js` files use the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to request data from an API or send data via [FormData](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#body).
 

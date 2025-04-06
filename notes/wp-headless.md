@@ -3,6 +3,7 @@
 ## Install plugins
 
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.57.09 AM.jpg>)
+<img src=../img/wp-plugins/Screenshot 2025-04-06 at 10.57.09 AM.jpg />
 
 ### Advanced Custom Fields (ACF)
 

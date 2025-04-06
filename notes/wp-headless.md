@@ -2,33 +2,66 @@
 
 ## Install plugins
 
+In `Dashboard`, Go to `Plugins` and choose `Add New Plugin`.
+
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.57.09 AM.jpg>)
-<img src="../img/wp-plugins/Screenshot 2025-04-06 at 10.57.09 AM.jpg" />
 
 ### Advanced Custom Fields (ACF)
 
+Advanced Custom Fields is used for creating custom: `Post Types`, `Fields` and `Taxonomies`.
+
+Searh for `Advanced Custom Fields` or `ACF`.
+
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.57.31 AM.jpg>)
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.57.41 AM.jpg>)
+
+Press on `Install Now`.
+
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.57.51 AM.jpg>)
+
+Once installed, press on `Activate`.
+
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.58.06 AM.jpg>)
+
+Once activated, you will be directed to the Plugins page with a `Plugin activated` message.
+
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.58.37 AM.jpg>)
 
-### Meta Field Block
+### Meta Field Block (Optional)
+
+Meta Field Blocks are useful for adding meta blocks to wordpress pages.
+
+Search for `Meta Field Block` in Plugins.
 
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 12.59.55 PM.jpg>)
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 1.05.34 PM.jpg>)
+
+Install and Activate the plugin. It should show up in the list of activated plugins on the `Plugins` page.
+
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 1.00.15 PM.jpg>)
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 1.01.05 PM.jpg>)
 
-### ACF Setup
+## Add Custom Post Types to wordpress
 
-### Post Types
+In the `Dashboard`, select `Post Types` in `Plugins`.
 
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 1.13.28 PM.jpg>)
+
+ACF page will open with `Post Types` open at the top and click on `Add New`.
+
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 10.59.53 AM.jpg>)
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 11.00.09 AM.jpg>)
+
+Add details for the type of Post you want to create, fill in the `Plural Label` and `Singular Label`, the `Post Type Key` will autocomplete for you.
+
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 11.01.14 AM.jpg>)
+
+At the top of page next to `Add New Post Type`, click on `Save Changes`.
+
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 11.01.21 AM.jpg>)
+
+Once added, you will see a success message about the post type is created.
+
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 11.02.41 AM.jpg>)
 
 ### Field Groups

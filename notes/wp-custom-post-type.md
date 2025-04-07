@@ -1,6 +1,6 @@
 # Wordpress Customization - Custom Post Types
 
-First make sure you have installed wordpress on your server. If you need to see how to install wordpress, click here.
+First make sure you have installed wordpress on your server. If you need to see how to install wordpress, [click here](https://youtube.com/playlist?list=PLe6HRxcu-AsDN4fspmBf-CtLCNLYE_ZHr&si=fHv0sixY27yA-qWe).
 
 We will be adding custom functionality to wordpress via Custom Field Types,
 

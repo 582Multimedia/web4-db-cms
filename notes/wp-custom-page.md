@@ -1,6 +1,6 @@
 # Wordpress Customization - Custom Pages
 
-First make sure you have installed wordpress on your server. If you need to see how to install wordpress, click here.
+First make sure you have installed wordpress on your server. If you need to see how to install wordpress, [click here](https://youtube.com/playlist?list=PLe6HRxcu-AsDN4fspmBf-CtLCNLYE_ZHr&si=fHv0sixY27yA-qWe).
 
 Make sure you have added Custom Post Types before doing adding custom pages, if you have not, [click here to add custom post types](/notes/wp-custom-post-type.md).
 

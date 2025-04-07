@@ -79,3 +79,17 @@ onMounted(() => {
 ```
 
 Import and insert the component tag into your App.vue to see what you can do with it.
+
+## Custom Post Types
+
+We can access custom post types and taxonomies via the names we defined.
+
+In our example:
+
+**Movies path:**
+[https://ngy.582mi.com/headless/wp-json/wp/v2/movies](https://ngy.582mi.com/headless/wp-json/wp/v2/movies)
+
+**Genres path:**
+[https://ngy.582mi.com/headless/wp-json/wp/v2/genre](https://ngy.582mi.com/headless/wp-json/wp/v2/genre)
+
+Try integrating these paths into some custom components!

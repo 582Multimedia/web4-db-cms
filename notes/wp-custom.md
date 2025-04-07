@@ -155,7 +155,8 @@ Once you are done, it should look like this:
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 11.17.53 AM.jpg>)
 
 > [!TIP]
-> Practice adding new post from your Custom Type
+> Practice adding new post from your Custom Type.
+>
 > Now add 4 more movies to your list of movies and add in all relevant details.
 
 ## Displaying Custom Post Types inside wordpress (Optional)

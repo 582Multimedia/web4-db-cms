@@ -1,6 +1,8 @@
-# API
+# Wordpress Customization
 
 First make sure you have installed wordpress on your server. If you need to see how to install wordpress, click here.
+
+We will be adding custom functionality to wordpress via Custom Field Types,
 
 ## Install plugins
 
@@ -29,21 +31,7 @@ Once activated, you will be directed to the Plugins page with a `Plugin activate
 
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.58.37 AM.jpg>)
 
-### Meta Field Block (Optional)
-
-Meta Field Blocks are useful for adding meta blocks to wordpress pages.
-
-Search for `Meta Field Block` in Plugins.
-
-![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 12.59.55 PM.jpg>)
-![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 1.05.34 PM.jpg>)
-
-Install and Activate the plugin. It should show up in the list of activated plugins on the `Plugins` page.
-
-![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 1.00.15 PM.jpg>)
-![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 1.01.05 PM.jpg>)
-
-## Add Custom Post Types to wordpress
+## Adding Custom Post Types
 
 In the `Dashboard`, **select** `Post Types` in `Plugins`.
 
@@ -110,7 +98,7 @@ And in the `Settings` tab, **enable** `Show in REST API`.
 
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 12.51.00 PM.jpg>)
 
-## Taxonomies
+## Add Taxonomies
 
 Taxonomies are for adding groups or categories of relationships to different post types.
 
@@ -132,7 +120,7 @@ A success message will appear for your taxonomy is created.
 
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 11.14.08 AM.jpg>)
 
-## Add new Custom Post
+## Add new Custom Post item
 
 Now we can finally add our own objects in the custom post type we created (Movies).
 
@@ -166,11 +154,27 @@ Once you are done, it should look like this:
 
 ![alt text](<../img/wp-acf/Screenshot 2025-04-06 at 11.17.53 AM.jpg>)
 
-### Practice adding new post from your Custom Type
+> [!TIP]
+> Practice adding new post from your Custom Type
+> Now add 4 more movies to your list of movies and add in all relevant details.
 
-**Now add 4 more movies to your list of movies and add in all relevant details.**
+## Displaying Custom Post Types inside wordpress (Optional)
 
-## Custom Blocks
+### Install Meta Field Block
+
+Meta Field Blocks are useful for adding meta blocks to wordpress pages.
+
+Search for `Meta Field Block` in Plugins.
+
+![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 12.59.55 PM.jpg>)
+![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 1.05.34 PM.jpg>)
+
+Install and Activate the plugin. It should show up in the list of activated plugins on the `Plugins` page.
+
+![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 1.00.15 PM.jpg>)
+![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 1.01.05 PM.jpg>)
+
+### Custom Page to display Custom Post Types
 
 To be able to view our custom post type of Movies on our wordpress site, we will have to add custom `Query Loop` and `Meta Field Block`.
 
@@ -289,35 +293,3 @@ Once you have confirmed, the page is now live!
 ![alt text](<../img/wp-custom-block/Screenshot 2025-04-06 at 12.28.18 PM.jpg>)
 
 You can **click** on the `View Page` button to view the page.
-
-## Wordpress API / Headless Wordpress
-
-In order for us to by pass wordpress theme system and use the data from our site directly through the wordpress API, we have to enable just one setting.
-
-In the `Dashboard`, under `Settings`, **select** `Permalinks`.
-
-![alt text](<../img/wp-headless/Screenshot 2025-04-06 at 11.18.40 AM.jpg>)
-
-The permalinks setting will appear.
-
-![alt text](<../img/wp-headless/Screenshot 2025-04-06 at 11.18.50 AM.jpg>)
-
-Under the list of options in permalink structure, **select** the `Post name` option.
-
-![alt text](<../img/wp-headless/Screenshot 2025-04-06 at 11.18.53 AM.jpg>)
-
-Go to the bottom of the page and **click** on `Save Changes`.
-
-![alt text](<../img/wp-headless/Screenshot 2025-04-06 at 11.18.55 AM.jpg>)
-
-You have now enabled the wordpress javascript API!
-
-To view your wordpress installation's API, you can go to this path:
-
-< wordpress path >/wp-json/wp/v2
-
-where < wordpress path > is the path on your server for wordpress.
-
-For my example, you can visit:
-
-[https://ngy.582mi.com/headless/wp-json/wp/v2](https://ngy.582mi.com/headless/wp-json/wp/v2)

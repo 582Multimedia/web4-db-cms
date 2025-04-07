@@ -13,7 +13,8 @@ Notes for Web 4: Databases &amp; Content Management
 - [APIs](notes/API.md)
 - [Capython](notes/capython.md)
 - [Php & MySQL](notes/php-mysql.md)
-- [Wordpress Customization](notes/wp-custom.md)
+- [Wordpress Customization - Custom Post Types](notes/wp-custom-post-type.md)
+- [Wordpress Customization - Custom Pages](notes/wp-custom-page.md)
 - [Wordpress API](notes/wp-api-headless.md)
 
 ## Course plan

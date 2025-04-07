@@ -161,9 +161,13 @@ Once you are done, it should look like this:
 
 ## Displaying Custom Post Types inside wordpress (Optional)
 
+Meta Field Blocks are useful for adding meta blocks to wordpress pages.
+
 ### Install Meta Field Block
 
-Meta Field Blocks are useful for adding meta blocks to wordpress pages.
+In `Dashboard`, Go to `Plugins` and choose `Add New Plugin`.
+
+![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.57.09 AM.jpg>)
 
 Search for `Meta Field Block` in Plugins.
 

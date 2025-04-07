@@ -4,15 +4,13 @@ First make sure you have installed wordpress on your server. If you need to see 
 
 We will be adding custom functionality to wordpress via Custom Field Types,
 
-## Install plugins
+`Advanced Custom Fields` plugin will help us easily create custom: `Post Types`, `Fields` and `Taxonomies`.
+
+## Install Advanced Custom Fields (ACF)
 
 In `Dashboard`, Go to `Plugins` and choose `Add New Plugin`.
 
 ![alt text](<../img/wp-plugins/Screenshot 2025-04-06 at 10.57.09 AM.jpg>)
-
-### Advanced Custom Fields (ACF)
-
-Advanced Custom Fields is used for creating custom: `Post Types`, `Fields` and `Taxonomies`.
 
 Searh for `Advanced Custom Fields` or `ACF`.
 

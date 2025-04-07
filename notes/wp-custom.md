@@ -157,7 +157,7 @@ Once you are done, it should look like this:
 > [!TIP]
 > Practice adding new post from your Custom Type.
 >
-> Now add 4 more movies to your list of movies and add in all relevant details.
+> Now add at least 4 more movies to your list of movies along with all relevant details for each movie.
 
 ## Displaying Custom Post Types inside wordpress (Optional)
 

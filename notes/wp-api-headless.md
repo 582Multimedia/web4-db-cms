@@ -92,4 +92,4 @@ In our example:
 **Genres path:**
 [https://ngy.582mi.com/headless/wp-json/wp/v2/genre](https://ngy.582mi.com/headless/wp-json/wp/v2/genre)
 
-Try integrating these paths into some custom components!
+Make new components and integrate these paths into some custom components!

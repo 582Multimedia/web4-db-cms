@@ -30,6 +30,52 @@ To view your wordpress installation's API, you can go to this path:
 
 where < wordpress path > is the path on your server for wordpress.
 
-For my example, you can visit:
+For my example, you can visit the following paths:
 
+**API base path (display all the paths):**
 [https://ngy.582mi.com/headless/wp-json/wp/v2](https://ngy.582mi.com/headless/wp-json/wp/v2)
+
+**Posts path:**
+[https://ngy.582mi.com/headless/wp-json/wp/v2/posts](https://ngy.582mi.com/headless/wp-json/wp/v2/posts)
+
+**Pages path:**
+[https://ngy.582mi.com/headless/wp-json/wp/v2/pages](https://ngy.582mi.com/headless/wp-json/wp/v2/pages)
+
+## Integrating wordpress API inside vue
+
+Create a new component called `WpApiTest.vue`.
+
+```js
+<script setup>
+import { onMounted, ref } from "vue";
+let wordpress = ref([]);
+let fetchData = async () => {
+  try {
+    const response = await fetch("https://ngy.582mi.com/headless/wp-json/wp/v2/posts");
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    wordpress.value = data;
+  } catch (error) {
+    console.error(error);
+  }
+};
+onMounted(() => {
+  fetchData();
+});
+</script>
+
+<template>
+  <div>
+    <h1>WP API Test</h1>
+    <ul>
+      <li v-for="item in wordpress" :key="item.id">
+        {{ item }}
+      </li>
+    </ul>
+  </div>
+</template>
+```
+
+Import and insert the component tag into your App.vue to see what you can do with it.

@@ -66,3 +66,13 @@ Quick example of wordpress info
 }
 </style>
 ```
+
+## Routes
+
+Intro to routing
+
+<https://vuejs.org/guide/scaling-up/routing>
+
+## Image binding solution
+
+<https://medium.com/@andrewmasonmedia/how-to-use-images-with-vite-and-vue-937307a150c0>

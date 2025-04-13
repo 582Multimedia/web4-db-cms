@@ -17,6 +17,10 @@ From now on, we'll use this for our style tag:
 
 We will quickly explore some SASS syntax, [click here to see documentation](https://sass-lang.com/documentation/syntax/).
 
+If we import data from wordpress, one of the problems we face is that DOM content created with v-html are not affected by scoped styles, but you can still style them using deep selectors.
+
+[Click here to see how to use deep selectors.](https://vuejs.org/api/sfc-css-features.html#deep-selectors)
+
 Quick example of wordpress info
 
 ```html
@@ -48,7 +52,8 @@ Quick example of wordpress info
     font-weight: 700 !important;
   }
 
-  & :deep(p) {
+  & :deep(p),
+  & :deep(li) {
     max-width: 35rem;
     font-size: 1em !important;
     margin-bottom: 1rem !important;

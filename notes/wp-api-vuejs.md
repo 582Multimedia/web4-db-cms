@@ -73,6 +73,14 @@ Intro to routing
 
 <https://vuejs.org/guide/scaling-up/routing>
 
+Intro to Vue Router
+
+<https://router.vuejs.org/guide/>
+
+Dealing with 404
+
+<https://router.vuejs.org/guide/essentials/dynamic-matching.html#Catch-all-404-Not-found-Route>
+
 ## Image binding solution
 
 <https://medium.com/@andrewmasonmedia/how-to-use-images-with-vite-and-vue-937307a150c0>

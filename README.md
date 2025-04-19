@@ -17,6 +17,7 @@ Notes for Web 4: Databases &amp; Content Management
 - [Wordpress Customization - Custom Pages](notes/wp-custom-page.md)
 - [Wordpress API](notes/wp-api-headless.md)
 - [Wordpress API + Vue.js](notes/wp-api-vuejs.md)
+- [Naming Conventions](notes/naming-conventions.md)
 
 ## Course plan
 

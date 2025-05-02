@@ -18,6 +18,7 @@ Notes for Web 4: Databases &amp; Content Management
 - [Wordpress API](notes/wp-api-headless.md)
 - [Wordpress API + Vue.js](notes/wp-api-vuejs.md)
 - [Naming Conventions](notes/naming-conventions.md)
+- [Vue Fix with Wordpress API](notes/wp-api-vue-fix.md)
 
 ## Course plan
 

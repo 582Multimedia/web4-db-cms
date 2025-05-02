@@ -46,7 +46,7 @@ onMounted(() => {
   <div>
     <h1>WP API Test</h1>
 
-    // THIS IS NEW
+    <!-- THIS IS NEW -->
     <ul v-if="loaded">
 
       <li v-for="item in wordpress" :key="item.id">

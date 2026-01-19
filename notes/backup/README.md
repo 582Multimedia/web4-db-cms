@@ -32,26 +32,26 @@ Students will be assessed using a combination of, but not limited to, the follow
 
 #### tentative schedule and evaluation
 
-<!-- jan 19 / 22
+jan 19 / 22
 jan 26 / 29 feb 2 / 5 / 9 / 12 / 16 / 20 / 23 / 26
 mar 16 / 19 (france) - mar 23 / 26 / 30 / apr 2 / 9 / 13
-mar 16 / 20 / 23 / 27 / 30 / may 4 / 7 / 11 -->
+mar 16 / 20 / 23 / 27 / 30 / may 4 / 7 / 11
 
-#### exercises 40%
-
-- WEEKS 1-6 - localStorage, API, PHP / MySQL, Vue.js
-- WEEKS 6 & 7 - Capython Prep
-- WEEKS 8-12 - Vue, Headless WP & Custom Post Types
-
-#### projects 40%
-
-- WEEK 5 - PI & Vue.js Project
-- WEEK 7 & 8 - Capython Project
-- WEEKS 12 - Headless WP Project
-
-#### final 20% (LIA)
-
-- WEEKS 13 - 15 - Personal  Project
+NOTE: Detailed assignment instructions available online.
+EXERCISES 40% projects 40% final 20% (LIA)
+localStorage, API, PHP / MySQL, Vue.js
+WEEKS 1-6
+Capython Prep
+WEEKS 6 & 7
+Vue, Headless WP & CPT
+WEEKS 8-12 API & Vue.js Project
+WEEK 5
+Capython Project
+WEEK 7 & 8
+Headless WP Project
+WEEKS 12
+Personal  Project
+WEEKS 14 & 15
 
 | Week | Dates | Due | Plan |
 | --- | --- | --- | --- |
@@ -60,10 +60,10 @@ mar 16 / 20 / 23 / 27 / 30 / may 4 / 7 / 11 -->
 | 03 | feb 2 / 5 | --- | --- |
 | 04 | feb 9 / 12 | --- | --- |
 | 05 | feb 16 / 20 | --- | --- |
-| 06 | feb  23 / 26 (Capython) | Capython Project | Headless WP ? |
+| 06 | feb  23 / 26 (Capython) | Capython Project | Start headless WP ? |
 | 07 | mar 3 / 5 (Capython) | Capython Project | --- |
 | break | mar 9 - 13 (France) | | |
-| 08 | mar 16 / 19 (France) | --- | Headless WP ? |
+| 08 | mar 16 / 19 (France) | --- | Start headless WP |
 | 09 | mar 23 / 26 | --- | --- |
 | 10 | mar 30 / apr 2 (Vernissage Prep) | --- | --- |
 | 11 | apr 9 (Vernissage) / 13 | --- | --- |
@@ -75,36 +75,39 @@ mar 16 / 20 / 23 / 27 / 30 / may 4 / 7 / 11 -->
 ## Course plan
 
 - [ ] git & GitHub workflow
-- [ ] javascript framework (vue.js or react) & component driven design
 - [ ] deep dive with logic operators, arrays, loops and filters
 - [ ] APIs
-- [ ] localstorage
-<!-- - [ ] TouchDesigner integration with APIs and replicator (maybe?) -->
-- [ ] Php & MySQL (basic web database infrastructure and custom database)
+- [ ] javascript framework (vue.js or react) & component driven design
+- [ ] headless wordpress
 - [ ] Capython Project
 - [ ] Headless Wordpress
-- [ ] Wordpress Custom Post Types
+- [ ] Wordpress custom post types
+
+Maybes
+
+- [ ] localstorage - add scores for Web3 game using
+- [ ] TouchDesigner integration with APIs and replicator (maybe?)
+- [ ] add scores to a db using Php & MySQL (basic web database infrastructure and custom database)
 
 ## Notes
 
-- [La Fabrique à Idiots](https://www.youtube.com/watch?v=4xq6bVbS-Pw) (intro video about ai)
 - [Git Setup](notes/git.md)
 - [GitHub Signup](https://github.com/582Multimedia/GitHub-signup)
-- [Naming Conventions](notes/naming-conventions.md)
+- [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later)
+- [localStorage](notes/localstorage.md)
+- [Javascript Basics](https://github.com/582Multimedia/js-basics)
 - [Vue Basics](notes/vuejs.md)
-<!-- - [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later) -->
-<!-- - [localStorage](notes/localstorage.md) -->
-<!-- - [Javascript Basics](https://github.com/582Multimedia/js-basics) -->
-<!-- - [APIs](notes/api.md) -->
-<!-- - [Capython](notes/capython.md) -->
-<!-- - [Php & MySQL](notes/php-mysql.md) -->
-<!-- - [Wordpress Customization - Custom Post Types](notes/wp-custom-post-type.md) -->
-<!-- - [Wordpress Customization - Custom Pages](notes/wp-custom-page.md) -->
-<!-- - [Wordpress API](notes/wp-api-headless.md) -->
-<!-- - [Wordpress API + Vue.js](notes/wp-api-vuejs.md) -->
-<!-- - [Vue Fix with Wordpress API](notes/wp-api-vue-fix.md) -->
+- [APIs](notes/api.md)
+- [Capython](notes/capython.md)
+- [Php & MySQL](notes/php-mysql.md)
+- [Wordpress Customization - Custom Post Types](notes/wp-custom-post-type.md)
+- [Wordpress Customization - Custom Pages](notes/wp-custom-page.md)
+- [Wordpress API](notes/wp-api-headless.md)
+- [Wordpress API + Vue.js](notes/wp-api-vuejs.md)
+- [Naming Conventions](notes/naming-conventions.md)
+- [Vue Fix with Wordpress API](notes/wp-api-vue-fix.md)
 
-<!-- ## Projects
+## Projects
 
 ### API & Vue.js Project
 
@@ -120,7 +123,7 @@ Details TBD
 
 ### Personal Project
 
-Details TBD -->
+Details TBD
 
 <!-- ## TO DO
 

@@ -30,22 +30,4 @@ vue options we need:
 
 View the Vue.js [Introduction](https://vuejs.org/guide/introduction) guide.
 
-## Run your project
-
-Make sure you are inside your project when you `cd` (change directory) into your project folder, for example, we've made a `class-exercises` folder:
-
-```bash
-cd class-exercises
-```
-
-If it is the first time you open your project (after creating your project or if you open it on a new computer), run the install command to install all the dependencies:
-
-```bash
-npm install
-```
-
-Once you have installed the dependencies, simply run `dev` to start the local server:
-
-```bash
-npm run dev
-```
+Now, let's look at how to [run your project](notes/vue/vuejs-run.md).

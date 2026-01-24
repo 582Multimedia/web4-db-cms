@@ -19,3 +19,5 @@ Once you have installed the dependencies, simply run `dev` to start the local se
 ```bash
 npm run dev
 ```
+
+Your project is now running! Let's look at how to [create our first component](../vue/vuejs-component-basics.md)

@@ -15,7 +15,10 @@ Notes for Web 4: Databases &amp; Content Management
 - [Course Outline & Deadlines](notes/course-outline.md)
 - [Git Setup](notes/git.md)
 - [Naming Conventions](notes/naming-conventions.md)
-- [Vue Basics - Start a project](notes/vuejs-start.md)
+- Vue Basics
+  - [Starting a new project](notes/vue/vuejs-start.md)
+  - [Running your project](notes/vuejs-run.md)
+  - [Creating components](notes/vuejs-component-basics.md)
 <!-- - [GitHub Signup](https://github.com/582Multimedia/GitHub-signup) -->
 <!-- - [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later) -->
 <!-- - [localStorage](notes/localstorage.md) -->

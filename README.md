@@ -2,6 +2,14 @@
 
 Notes for Web 4: Databases &amp; Content Management
 
+> [!IMPORTANT]
+> **Windows command fix**
+> Run this in the command line if you encounter issues on windows with permission errors for git or npm:
+>
+> ```cmd
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+
 ## Notes
 
 - [Course Outline & Deadlines](notes/course-outline.md)

@@ -30,4 +30,4 @@ vue options we need:
 
 View the Vue.js [Introduction](https://vuejs.org/guide/introduction) guide.
 
-Now, let's look at how to [run your project](notes/vue/vuejs-run.md).
+Now, let's look at how to [run your project](vuejs-run.md).

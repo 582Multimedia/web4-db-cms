@@ -28,4 +28,4 @@ Once you have installed the dependencies, simply run `dev` to start the local se
 npm run dev
 ```
 
-Your project is now running! Let's look at how to [create our first component](vuejs-component-basics.md)
+Your project is now running! Let's look at how to [create our first component](vuejs-component-basics.md).

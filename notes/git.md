@@ -49,10 +49,4 @@ Commit and Publish to github, you will have the choice of public or private repo
 
 Having a message is the most critical part.
 
-## Windows command fix
-
-Run this in the command line if you encounter issues on windows with permission errors for git or npm:
-
-```cmd
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
+Now that git is installed, let's [start a new vue project](vue/vuejs-start.md).

@@ -12,6 +12,14 @@ git -v
 
 - Install git if not installed already (macs will already have it). At home, you can install git [for WIndows](https://git-scm.com/install/windows) and [for Mac](https://git-scm.com/install/mac).
 
+> [!IMPORTANT]
+> **Windows command fix**
+> Run this in the command line if you encounter issues on windows with permission errors for git or npm:
+>
+> ```cmd
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+
 - Once you know git is installed, add user name and email credentials for git to work:
 (replace "Your Name" and use your vanier email address)
 

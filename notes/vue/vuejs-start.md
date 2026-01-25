@@ -13,6 +13,14 @@ npm -v
 
 Install [Node.js](https://nodejs.org/en) and npm if needed, or at home.
 
+> [!IMPORTANT]
+> **Windows command fix**
+> Run this in the command line if you encounter issues on windows with permission errors for git or npm:
+>
+> ```cmd
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+
 ## Start a new project
 
 View the Vue.js [Quick Start](https://vuejs.org/guide/quick-start) guide.

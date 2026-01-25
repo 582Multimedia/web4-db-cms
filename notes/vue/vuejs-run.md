@@ -14,6 +14,14 @@ If it is the first time you open your project (after creating your project or if
 npm install
 ```
 
+> [!IMPORTANT]
+> **Windows command fix**
+> Run this in the command line if you encounter issues on windows with permission errors for git or npm:
+>
+> ```cmd
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+
 Once you have installed the dependencies, simply run `dev` to start the local server:
 
 ```bash

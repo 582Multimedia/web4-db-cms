@@ -2,20 +2,12 @@
 
 Notes for Web 4: Databases &amp; Content Management
 
-> [!IMPORTANT]
-> **Windows command fix**
-> Run this in the command line if you encounter issues on windows with permission errors for git or npm:
->
-> ```cmd
-> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-> ```
-
 ## Notes
 
 - [Course Outline & Deadlines](notes/course-outline.md)
-- [Git Setup](notes/git.md)
 - [Naming Conventions](notes/naming-conventions.md)
 - Vue Basics
+  - [Git Setup](notes/git.md)
   - [Starting a new project](notes/vue/vuejs-start.md)
   - [Running your project](notes/vue/vuejs-run.md)
   - [Creating components](notes/vue/vuejs-component-basics.md)
@@ -31,6 +23,14 @@ Notes for Web 4: Databases &amp; Content Management
 <!-- - [Wordpress API](notes/wp-api-headless.md) -->
 <!-- - [Wordpress API + Vue.js](notes/wp-api-vuejs.md) -->
 <!-- - [Vue Fix with Wordpress API](notes/wp-api-vue-fix.md) -->
+
+> [!IMPORTANT]
+> **Windows command fix**
+> Run this in the command line if you encounter issues on windows with permission errors for git or npm:
+>
+> ```cmd
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
 
 ## Important Links
 

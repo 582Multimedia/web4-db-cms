@@ -6,11 +6,12 @@ Notes for Web 4: Databases &amp; Content Management
 
 - [Course Outline & Deadlines](notes/course-outline.md)
 - [Naming Conventions](notes/naming-conventions.md)
-- Vue Basics
+- Vue Introduction - Setup
   - [Git Setup](notes/git.md)
   - [Starting a new project](notes/vue/vuejs-start.md)
   - [Running your project](notes/vue/vuejs-run.md)
   - [Creating components](notes/vue/vuejs-component-basics.md)
+- Vue Basics - Reactivity
 <!-- - [GitHub Signup](https://github.com/582Multimedia/GitHub-signup) -->
 <!-- - [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later) -->
 <!-- - [localStorage](notes/localstorage.md) -->

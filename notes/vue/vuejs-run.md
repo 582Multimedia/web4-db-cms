@@ -28,4 +28,7 @@ Once you have installed the dependencies, simply run `dev` to start the local se
 npm run dev
 ```
 
+> [!NOTE]
+> [Install the Vue (Official) extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar) if you did not already.
+
 Your project is now running! Let's look at how to [create our first component](vuejs-component-basics.md).

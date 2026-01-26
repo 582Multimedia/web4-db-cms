@@ -137,7 +137,7 @@ const sampleEmptyStringConversion = ref(!!"")
 const sampleNonEmptyStringConversion = ref(!!"Hello")
 ```
 
-### Directives `v-` (`bind`, `if`, `for`, `on`)
+## Directives `v-` (`bind`, `if`, `for`, `on`)
 
 View all [Built-in Directives](https://vuejs.org/api/built-in-directives).
 
@@ -153,19 +153,19 @@ View all [Built-in Directives](https://vuejs.org/api/built-in-directives).
 | v-for | Loops through an array to create a list. | `v-for="item in items` |
 | v-model | Creates two-way data binding on form inputs. | `v-model="username` |
 
-#### Binding basic data
+### Binding basic data
 
 ```html
 <img :src="sampleImageUrl" alt="Sample Image" />
 ```
 
-#### HTML binding
+### HTML binding
 
 ```html
 <div v-html="sampleHtml"></div>
 ```
 
-#### Conditional Rendering
+### Conditional Rendering
 
 There are two way to use conditional rendering.
 
@@ -190,7 +190,7 @@ The other way is to generate the DOM (html) and only show / hide it using css wi
 
 View examples about [Conditional Rendering](https://vuejs.org/guide/essentials/conditional).
 
-#### Functions
+### Functions
 
 We can declare functions the same way we declare variables, but using the [arrow function operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
 
@@ -210,7 +210,7 @@ const setNumber = (newNumber) => {
 }
 ```
 
-#### Event listeners - `v-on` (shorthand `@`)
+### Event listeners - `v-on` (shorthand `@`)
 
 We can add event listeners to HTML elements using the `v-on` directive (shorthand `@`).
 
@@ -223,4 +223,93 @@ Similarly, we can use the changeNumber function with a click event or an input e
 ```html
 <button @click="setNumber(42)">Set Number to 42</button>
 <input type="number" @input="setNumber($event.target.value)" />
+```
+
+## Arrays
+
+An array is a special type of object that can hold multiple values in an ordered list.
+
+```js
+const arraySample = ref([1, 2, 3, 4, 5])
+```
+
+```js
+const fruits = ref(['Apple', 'Banana', 'Cherry'])
+```
+
+We can loop through an array using the `v-for` directive.
+
+```html
+<ul>
+  <li v-for="item in arraySample" :key="item">{{ item }}</li>
+</ul>
+```
+
+```html
+<ul>
+  <li v-for="fruit in fruits" :key="fruit">{{ fruit }}</li>
+</ul>
+```
+
+We can also loop through all the values of a number.
+
+```html
+<ul>
+  <li v-for="digit in basicInteger" :key="digit">{{ digit }}</li>
+</ul>
+```
+
+We can also loop through text to get each character.
+
+```html
+<ul>
+  <li v-for="char in sampleDqText" :key="char">{{ char }}</li>
+</ul>
+```
+
+## Objects
+
+An object is a data structure that holds key-value pairs.
+
+```js
+const sampleObject = ref({
+  name: 'John Doe',
+  age: 30,
+  occupation: 'Developer'
+})
+```
+
+We can access object properties using dot notation.
+
+```html
+<section v-if="sampleObject">
+  <p>Name: {{ sampleObject.name }}</p>
+  <p>Age: {{ sampleObject.age }}</p>
+  <p>Occupation: {{ sampleObject.occupation }}</p>
+</section>
+```
+
+## Array of Objects
+
+An array of objects is an array where each element is an object.
+
+```js
+const tasks = ref([
+  { id: 1, text: 'Brew Coffee', completed: false },
+  { id: 2, text: 'Make Breakfast', completed: true },
+  { id: 3, text: 'Read News', completed: false }
+])
+```
+
+We can loop through an array of objects using `v-for`.
+
+```html
+<ul>
+  <li v-for="task in tasks" :key="task.id">
+    <span>{{ task.id }}</span>
+    <span :class="{ 'is-done': task.completed }">{{ task.text }}</span>
+    <button @click="toggleTask(task)">Check</button>
+    <button @click="removeTask(task)">Delete</button>
+  </li>
+</ul>
 ```

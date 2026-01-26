@@ -190,7 +190,7 @@ The other way is to generate the DOM (html) and only show / hide it using css wi
 
 View examples about [Conditional Rendering](https://vuejs.org/guide/essentials/conditional).
 
-#### functions
+#### Functions
 
 We can declare functions the same way we declare variables, but using the [arrow function operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
 
@@ -208,4 +208,21 @@ However, if we need to pass in a value (like a new number), we can declare a par
 const setNumber = (newNumber) => {
   basicInteger.value = newNumber
 }
+```
+
+#### Event listeners - `v-on` (shorthand `@`)
+
+We can add event listeners to HTML elements using the `v-on` directive (shorthand `@`).
+
+```html
+<button @click="toogleBoolean">Toggle Boolean</button>
+```
+
+Similarly, we can use the changeNumber function with a click event or an input event.:
+
+{{ basicInteger }}
+
+```html
+<button @click="setNumber(42)">Set Number to 42</button>
+<input type="number" @input="setNumber($event.target.value)" />
 ```

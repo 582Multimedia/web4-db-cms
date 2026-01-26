@@ -6,6 +6,8 @@ We will be exploring data basics with the help of the sandbox.
 
 Open the [Sandbox](https://sandbox.582multi.media/) in a new window.
 
+Before we begin, add a new component called `BasicReactivity.vue` in your components folder and `import` it into your `App.vue`.
+
 ## Reactivity and declarative rendering
 
 ### The `<script setup>` Pattern

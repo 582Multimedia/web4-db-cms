@@ -220,8 +220,6 @@ We can add event listeners to HTML elements using the `v-on` directive (shorthan
 
 Similarly, we can use the changeNumber function with a click event or an input event.:
 
-{{ basicInteger }}
-
 ```html
 <button @click="setNumber(42)">Set Number to 42</button>
 <input type="number" @input="setNumber($event.target.value)" />

@@ -11,7 +11,8 @@ Notes for Web 4: Databases &amp; Content Management
   - [Starting a new project](notes/vue/vuejs-start.md)
   - [Running your project](notes/vue/vuejs-run.md)
   - [Creating components](notes/vue/vuejs-component-basics.md)
-- Vue Basics - Reactivity
+- Vue Basics
+  <!-- - [Reactivity](notes/vue/vuejs-reactivity.md) -->
 <!-- - [GitHub Signup](https://github.com/582Multimedia/GitHub-signup) -->
 <!-- - [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later) -->
 <!-- - [localStorage](notes/localstorage.md) -->

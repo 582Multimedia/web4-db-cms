@@ -1,4 +1,29 @@
-# Vue Basics 1 - Declarative Rendering, Directives, Event Handling, Reactivity, Two-Way Binding, Props
+# Vue Basics - Declarative Rendering, Reactivity, Directives
+
+## Prerequisites
+
+We will be exploring data basics with the help of the sandbox.
+
+Open the [Sandbox](https://sandbox.582multi.media/) in a new window.
+
+## Data Basics
+
+- numbers
+- text
+- boolean
+- arrays
+- objects
+- array of objects
+- functions
+- `!=`
+- `trim()` - [read documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
+- `push()` - [read documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- `pop()` - [read documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+- `@keyup.enter` - [read documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/keyup_event)
+- forms - [read documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form)
+- `filter()` - [read documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- `every()` - [read documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+- `splice()` - [read documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 ## Mustache Syntax `{{ }}`
 

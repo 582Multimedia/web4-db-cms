@@ -14,6 +14,10 @@ This is the modern standard for Vue 3. It reduces boilerplate and makes the code
 
 `ref()`: Used to make a variable reactive.
 
+```js
+const msg = ref("Hello world!")
+```
+
 Imports: You must explicitly import `ref` from `'vue'` inside `<script setup>`.
 You only need to import `ref` once per vue file.
 
@@ -35,84 +39,102 @@ Read more about [Template Syntax](https://vuejs.org/guide/essentials/template-sy
 
 #### Numbers
 
-Watch out for decimal numbers
+Whole numbers are called integers, which is considered a Number.
 
 ```js
-0.1 + 0.2
+const basicInteger = ref(1)
 ```
+
+Decimal numbers are called floats, but is a Number in javascript.
+
+```js
+const basicDecimal = ref(0.1)
+```
+
+We can also use expressions inside our declaration.
+
+```js
+const specialDecimal = ref(0.1 + 0.2)
+```
+
+Watch out for decimal numbers math...
 
 #### Text
 
 Text in double quotes
 
 ```js
-"Text in double quotes"
+const sampleDqText = ref("Text in double quotes")
 ```
 
 Text in single quotes
 
 ```js
-'Text in single quotes'
+const sampleSqText = ref('Text in single quotes')
 ```
 
 A full paragraph of text
 
 ```js
-"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quas, necessitatibus tempora non dignissimos inventore deleniti provident quibusdam, cumque vitae labore impedit numquam quasi maxime perspiciatis ipsa voluptas animi exercitationem!"
+const sampleParagraphText = ref("Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quas, necessitatibus tempora non dignissimos inventore deleniti provident quibusdam, cumque vitae labore impedit numquam quasi maxime perspiciatis ipsa voluptas animi exercitationem!")
 ```
 
 Multiline text
 
 ```js
-`I'm on line one.
+const sampleMultilineText = ref(`I'm on line one.
 This is line two.
-This is the last line.`
+This is the last line.`)
 ```
 
 URL
 
 ```js
-"https://sandbox.582multi.media/"
+const sampleUrl = ref("https://sandbox.582multi.media/")
 ```
 
 Image path
 
 ```js
-"https://placehold.co/600x400?text=Sample+Image"
+const sampleImageUrl = ref("https://placehold.co/600x400?text=Sample+Image")
 ```
 
 HTML text
 
 ```js
-`<p>Sample Paragraph with some text. Sample text that is <em>emphasized</em>.</p>`
+const sampleHtml = ref(`<p>Sample Paragraph with some text. Sample text that is <em>emphasized</em>. Sample text that is <strong>strongly emphasized</strong>.</p>`)
 ```
 
 #### Boolean
 
 Boolean value can be only `true` or `false`.
 
+```js
+const sampleBoolean = ref(true)
+```
+
 We can 'flip', or get the opposite of our value using the negation `!` symbol.
 
 ```js
-!true // (not) true, will give use false
+const sampleNegativeBoolean = ref(!true) // (not) true, will give use false
 ```
 
 We can also force data to be converted into a boolean using double negative `!!` in front of the value
 
 ```js
-!!0
+const sampleZeroConversion = ref(!!0)
 ```
 
 ```js
-!!42
+const sampleNonZeroConversion = ref(!!42)
 ```
 
 ```js
-!!""
+const sampleEmptyStringConversion = ref(!!"")
 ```
 
 ```js
-!!"some text"
+const sampleNonEmptyStringConversion = ref(!!"Hello")
 ```
 
 #### conditionals
@@ -120,6 +142,11 @@ We can also force data to be converted into a boolean using double negative `!!`
 #### functions
 
 ### Directives `v-` (`bind`, `if`, `for`, `on`)
+
+```js
+<img :src="sampleImageUrl" alt="Sample Image" />
+<div v-html="sampleHtml"></div>
+```
 
 View all [Built-in Directives](https://vuejs.org/api/built-in-directives).
 

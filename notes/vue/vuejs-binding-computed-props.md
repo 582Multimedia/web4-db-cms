@@ -4,6 +4,8 @@
 
 We will begin with this:
 
+Create a file called `TwoWayBind.vue` in your components folder.
+
 ```html
 <script setup>
 import { ref } from 'vue';

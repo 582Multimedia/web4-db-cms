@@ -1,4 +1,4 @@
-# Vue Basics - Two-Way Binding, Props, Event Handling
+# Temp notes - to be used later
 
 <!-- ```js
 <script setup>

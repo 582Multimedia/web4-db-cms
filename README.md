@@ -13,6 +13,7 @@ Notes for Web 4: Databases &amp; Content Management
   - [Creating components](notes/vue/vuejs-component-basics.md)
 - Vue Basics
   - [Reactivity](notes/vue/vuejs-reactivity.md)
+  - [Vue Basics - Two-Way Binding, Computed and Props](notes/vue/vuejs-binding-computed-props.md)
 <!-- - [GitHub Signup](https://github.com/582Multimedia/GitHub-signup) -->
 <!-- - [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later) -->
 <!-- - [localStorage](notes/localstorage.md) -->

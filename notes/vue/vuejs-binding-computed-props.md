@@ -103,3 +103,31 @@ v-model: This is your "bridge." It links the `<input>` value directly to newTask
 `.value`: Remember that inside the `<script setup>`, you must use newTaskText.value to access or change the data. In the `<template>`, you just use newTaskText.
 
 Event Modifiers: Notice `@keyup.enter`. This is a Vue helper that triggers the function only when the "Enter" key is pressed, making the UX much smoother.
+
+## Props
+
+<https://vuejs.org/guide/components/props>
+
+Create a component named `PropsExample.vue` and copy paste this inside:
+
+```js
+<!-- PropsExample.vue -->
+<script setup>
+const props = defineProps(['name'])
+</script>
+<template>
+  <p>{{ name }}</p>
+</template>
+```
+
+In `App.vue`, copy paste this inside the `script` tag to import the component:
+
+```js
+import PropsExample from './components/PropsExample.vue'
+```
+
+External props passed to the component in the parent using:
+
+```js
+<PropsExample name="Test Name" />
+```

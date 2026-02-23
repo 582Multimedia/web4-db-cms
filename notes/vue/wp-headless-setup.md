@@ -116,4 +116,10 @@ In our example:
 **Genres path:**
 [https://ngy.582mi.com/headless/wp-json/wp/v2/genre](https://ngy.582mi.com/headless/wp-json/wp/v2/genre)
 
+To view the incoming object from wordpress in your browser, open the link. You can expand the object by checking the `Pretty-print` button.
+
+![alt text](</img/wp-headless/Screenshot_2026-02-23_at_10.41.32_AM.png>)
+
+![alt text](</img/wp-headless/Screenshot_2026-02-23_at_10.41.38_AM.png>)
+
 Make new components and integrate these paths into some custom components!

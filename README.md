@@ -37,6 +37,8 @@ Notes for Web 4: Databases &amp; Content Management
 
 ## Important Links
 
+- [Vue Introduction](https://vuejs.org/guide/introduction.html)
+- [Vue Tutorial](https://vuejs.org/tutorial/#step-1)
 - [La Fabrique à Idiots](https://www.youtube.com/watch?v=4xq6bVbS-Pw) (intro video about ai)
 - [Random Project Generator](https://randomprojectgenerator.com/) (for UI / UX)
 

@@ -96,6 +96,10 @@ And in the `Settings` tab, **enable** `Show in REST API`.
 
 ![alt text](</img/wp-acf/Screenshot 2025-04-06 at 12.51.00 PM.jpg>)
 
+Click on `Save Changes`.
+
+![alt text](</img/wp-acf/Screenshot_2026-02-23_at_10.44.58_AM.png>)
+
 ## Add Taxonomies
 
 Taxonomies are for adding groups or categories of relationships to different post types.

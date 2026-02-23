@@ -2,6 +2,16 @@
 
 First make sure you have installed wordpress on your server. If you need to see how to install wordpress, [click here](https://youtube.com/playlist?list=PLe6HRxcu-AsDN4fspmBf-CtLCNLYE_ZHr&si=fHv0sixY27yA-qWe).
 
+You should already have a wordpress installed from Bruce's class, it should be located at your web2 page, something like:
+
+`https://peter00.582something.com`/cms/
+
+**Replace** `https://peter00.582something.com` **with your site link**.
+
+To login and access the dashboard / wordpress admin, go to:
+
+`https://peter00.582something.com`/cms/**wp-admin**
+
 ## Wordpress API / Headless Wordpress
 
 In order for us to skip wordpress theme system and use the data from our site directly through the wordpress API, we have to enable just one setting.
@@ -104,19 +114,11 @@ onMounted(() => {
 
 Import and insert the component tag into your `App.vue` to see what you can do with it.
 
+Once it works with my data, make your own component and use the same code, but **replace the link with your wordpress API**.
+
 Make sure you use your own path for `posts` (`wp-json/wp/v2/posts`) or `pages` (`wp-json/wp/v2/pages`) and **not** the root path at `wp-json/wp/v2/`.
 
-## Custom Post Types
-
-We can access custom post types and taxonomies via the names we defined.
-
-In our example:
-
-**Movies path:**
-[https://ngy.582mi.com/headless/wp-json/wp/v2/movies](https://ngy.582mi.com/headless/wp-json/wp/v2/movies)
-
-**Genres path:**
-[https://ngy.582mi.com/headless/wp-json/wp/v2/genre](https://ngy.582mi.com/headless/wp-json/wp/v2/genre)
+![alt text](</img/wp-headless/Screenshot 2026-02-23 at 2.11.04 PM.jpg>)
 
 To view the incoming object from wordpress in your browser, open the link. You can expand the object by checking the `Pretty-print` button.
 
@@ -124,4 +126,14 @@ To view the incoming object from wordpress in your browser, open the link. You c
 
 ![alt text](</img/wp-headless/Screenshot_2026-02-23_at_10.41.38_AM.png>)
 
-Make new components and integrate these paths into some custom components!
+Modify the code in your component to make it prettier!
+
+For example, to display the title of your post / page, you can change the default `post` variable to get the title inside, using `post.title.rendered` by looking at the object you're getting from wordpress (see above).
+
+![alt text](</img/wp-headless/Screenshot 2026-02-23 at 2.14.05 PM.jpg>)
+
+![alt text](</img/wp-headless/Screenshot 2026-02-23 at 2.13.17 PM.jpg>)
+
+Choose some other information from the objects and display them in your component (ex: the `id`)!
+
+Once this is done, move on to [adding custom post types in wordpress](/notes/vue/wp-headless-custom-post-type.md).

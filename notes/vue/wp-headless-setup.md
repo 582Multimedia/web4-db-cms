@@ -26,9 +26,9 @@ You have now enabled the wordpress javascript API!
 
 To view your wordpress installation's API, you can go to this path:
 
-`your-wordpress-path`/wp-json/wp/v2
+`your-wordpress-path/` wp-json/wp/v2
 
-where `your-wordpress-path` is the path on your server for the wordpress you are working on.
+where `your-wordpress-path/` is the path on your server for the wordpress you are working on.
 
 For my example, you can visit the following paths:
 
@@ -103,6 +103,8 @@ onMounted(() => {
 ```
 
 Import and insert the component tag into your `App.vue` to see what you can do with it.
+
+Make sure you use your own path for `posts` (`wp-json/wp/v2/posts`) or `pages` (`wp-json/wp/v2/pages`) and **not** the root path at `wp-json/wp/v2/`.
 
 ## Custom Post Types
 

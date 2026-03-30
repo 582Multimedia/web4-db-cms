@@ -2,6 +2,19 @@
 
 HTML forms are the backbone of user interaction on the web, allowing you to collect data—from simple search queries to complex login credentials.
 
+Create `FormBasics.vue` with the following code:
+
+```html
+<script></script>
+
+<template>
+  <form action="">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+  </form>
+</template>
+```
+
 ---
 
 ## 1. The Basic Anatomy of a Form

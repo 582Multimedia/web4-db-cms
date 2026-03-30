@@ -17,6 +17,8 @@ Notes for Web 4: Databases &amp; Content Management
 - Wordpress API
   - [Wordpress API](notes/vue/wp-headless-setup.md)
   - [Custom Post Types](notes/vue/wp-headless-custom-post-type.md)
+- Database
+  - [Form Basics](notes/vue/form-basics.md)
 <!-- - [GitHub Signup](https://github.com/582Multimedia/GitHub-signup) -->
 <!-- - [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later) -->
 <!-- - [localStorage](notes/localstorage.md) -->

@@ -61,8 +61,9 @@ fetch('https://ngy.582mi.com/web4/api/index.php?type=movie', {
     'Authorization': 'Bearer your-token-here' // Optional: pass security tokens
   },
   body: JSON.stringify({ // The data must be converted to a string
-    title: 'Interstellar'
-    release_year: 2014
+    title: 'Interstellar',
+    release_year: 2014,
+    genre: 'Sci-fi'
   })
 })
 .then(res => res.json())

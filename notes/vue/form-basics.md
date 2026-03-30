@@ -15,6 +15,14 @@ Create `FormBasics.vue` with the following code:
 </template>
 ```
 
+We will be using this paths later on, so keep it close:
+
+```txt
+https://ngy.582mi.com/web4/requests/
+```
+
+Below is a brief theory about using forms:
+
 ---
 
 ## 1. The Basic Anatomy of a Form

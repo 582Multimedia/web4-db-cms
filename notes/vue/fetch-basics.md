@@ -54,17 +54,20 @@ To perform actions beyond a simple `GET` request, you pass an options object as 
 A common use case is sending JSON data to a server:
 
 ```javascript
-fetch('https://api.example.com/users', {
+fetch('https://ngy.582mi.com/web4/api/index.php?type=movie', {
   method: 'POST', // Specify the HTTP method
   headers: {
     'Content-Type': 'application/json', // Tell the server you're sending JSON
     'Authorization': 'Bearer your-token-here' // Optional: pass security tokens
   },
   body: JSON.stringify({ // The data must be converted to a string
-    name: 'Gemini',
-    role: 'AI Collaborator'
+    title: 'Interstellar'
+    release_year: 2014
   })
-});
+})
+.then(res => res.json())
+.then(data => console.log('Movie Added:', data))
+.catch(err => console.error('Error:', err));
 ```
 
 ### Key Options Breakdown

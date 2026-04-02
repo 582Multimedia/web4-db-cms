@@ -132,3 +132,28 @@ fetchData();
 * **Readability:** It avoids "callback hell" or deeply nested `.then()` blocks.
 * **Error Handling:** You can use standard `try/catch` blocks, which handle both network errors and manual errors thrown during validation.
 * **Debugging:** Setting breakpoints and stepping through the code is much more intuitive than with chained promises.
+
+---
+
+`FetchBasics.vue`
+
+```html
+<script setup>
+import { ref } from 'vue';
+
+const reviews = ref([]);
+const reviewsLoading = ref(true);
+
+fetch('https://ngy.582mi.com/web4/api/')
+  .then(res => res.json())
+  .then(data => reviews.value = data)
+  .then(() => reviewsLoading.value = false)
+  .catch(err => console.error('Error:', err));
+</script>
+
+<template>
+  <section v-if="!reviewsLoading">
+    {{ reviews }}
+  </section>
+</template>
+```

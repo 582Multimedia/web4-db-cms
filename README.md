@@ -22,6 +22,8 @@ Notes for Web 4: Databases &amp; Content Management
   - [Fetch Basics](notes/vue/fetch-basics.md)
 - Vue Routing and Build
   - [Routing Basics](notes/vue/vuejs-router.md)
+- Wordpress API - REST
+  - [REST API](notes/vue/wp-headless-rest.md)
 <!-- - [GitHub Signup](https://github.com/582Multimedia/GitHub-signup) -->
 <!-- - [Git Basics specific to Web4](https://github.com/582Multimedia/git-basics) (for later) -->
 <!-- - [localStorage](notes/localstorage.md) -->

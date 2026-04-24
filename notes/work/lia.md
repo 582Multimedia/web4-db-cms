@@ -8,6 +8,8 @@ Technical requirements
 
 - Must include details of the type of object that makes up your app
 - Design your views prior to adding them into your Vue project
+- Choose a Capyskill, add details and track / log evidence of your improvement here
+- Add figma link to the README.md file of your LIA project.
 
 ## Git
 
